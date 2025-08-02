@@ -1,0 +1,286 @@
+/* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (max-width: 1440px) {
+  .banner_content h1 {
+    font-size: 60px;
+}
+.banner_content {
+  height: 522px;
+}
+.btn_morepro {
+ 
+  height: 135px;
+  width: 135px;
+  
+  top: -35px;
+  left: 6px;
+}
+.heading_box > h1 {
+  font-size: 45px;
+}
+.btn_morepro > h1 {
+  font-size: 22px;
+}
+.sale_pro {
+  margin-top: 12px;
+}
+.set_btn {
+  right: 0px;
+  bottom: 15px;
+}
+.exqu_box {
+ 
+  width: 70%;
+}
+.lates_box {
+  padding: 245px var(--padding-2xl) var(--padding-lgi);
+  
+}
+.latest_cont > h3 {
+  font-size: 22px;
+}
+.lates_cotnt>h4{
+  font-size: 20px;
+}
+.client_box > h1 {
+  font-size: 50px;
+}
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  .banner_content h1 {
+    font-size: 50px;
+}
+.banner_content {
+  height: 425px;
+}
+.btn_morepro {
+  height: 100px;
+  width: 100px;
+  top: -60px;
+  left: 11px;
+}
+.btn_morepro > h1 {
+  font-size: 18px;
+}
+.sale_pro {
+  margin-top: 0px;
+}
+.sale_card {
+  gap: 10px;
+  padding: 0px;
+}
+.sale_img{
+  padding: 90px var(--padding-xs) var(--padding-sm);
+}
+.sale_info > p {
+  line-height: 16px !important;
+}
+.heading_box > h1 {
+  font-size: 36px;
+}
+.cusBtn{
+  padding: 8px;
+}
+.post-content > h3 {
+ 
+ 
+ 
+  line-height: 26px;
+  font-size: 20px;
+  
+}
+
+}
+/* Medium devices (landscape medium, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .left_side, .right_side {
+        gap: 10px;
+    }
+    .banner_content {
+      height: auto;
+  }
+  .sale_pro{
+    background-image: none;
+    height: auto;
+  }
+  .btn_morepro {
+    top: -333px;
+    left: 5px;
+}
+.interil_1 .head_box > h2 {
+  white-space: unset;
+  font-size: 22px;
+}
+.discription {
+  width: 50%;
+}
+.pad_left>br{
+  display: none;
+}
+.bg_behind>img{
+  width: 100%;
+}
+.accd_box , .lates_box1{
+  margin-top: 30px;
+}
+ 
+.exqu_main {
+  justify-content: flex-start;
+}
+.testi_box .owl-theme .owl-nav {
+ 
+  margin-top: -16%;
+  
+  width: 105%;
+  margin-left: -20px;
+}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .bar{
+  display: flex;
+}
+    .nav1 {
+        position: absolute;
+        top: 80%;
+        width: 100%;
+        padding: 20px;
+        left: 0px;
+        border-radius: 10px;
+        display: none;
+        z-index: 1222;
+      }
+      .nav1 > ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+      .padt-60 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .banner_content h1 {
+      font-size: 45px;
+  }
+  .btn_morepro {
+    top: -325px;
+    left: 13px;
+}
+.interil_1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: 10px;
+}
+.discription {
+  width: 100%;
+  margin-top: 20px;
+}
+.sale_pro {
+  padding: 0px;
+}
+.interil_1 .head_box > .num{
+  font-size: 25px;
+}  
+.lates_box {
+  height: 400px;
+  padding: 225px var(--padding-2xl) var(--padding-lgi);
+}
+.client_box > h1 {
+  font-size: 35px;
+}
+.testi_box .owl-theme .owl-nav {
+  display: none;
+}
+ .btn_c{
+  margin-bottom: 20px;
+ }
+ .craf_bn {
+  width: 100%;
+ }
+ .vid_img {
+  top: -135px;
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    padding: 10px 0px;
+  }
+  
+  .banner_content h1 {
+    font-size: 33px;
+}
+.vid_img {
+  position: relative;
+  top: -95px;
+}
+.sub_cont {
+  top: 55px;
+}
+  .arrow {
+    right: 30px;
+    top: 50px;
+  }
+  .set_btn {
+    right: 0px;
+    bottom: 5px;
+    font-size: 12px;
+}
+.foot_widget {
+  padding: 10px 0px;
+}
+.sub_title , .sub_form{
+  padding: 10px 0px;
+}
+.client_box > h1 {
+  font-size: 30px;
+}
+.heading_box > h1 {
+  font-size: 30px;
+}
+.exqu_box {
+  width: 100%;
+}
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 420px) {
+  .w_control {
+    width: 100%;
+    padding-top: 5px;
+    line-height: 20px;
+}
+h1>br{
+  display: none;
+}
+.interil_1 .head_box > h2 {
+  white-space: unset;
+  font-size: 20px;
+}
+.pad_left {
+  margin-left: 0px !important;
+}
+.set_btn {
+  right: 0px;
+  bottom: -35px;
+  font-size: 12px;
+}
+.accd_box .accordion-button {
+  font-size: 18px;
+}
+.coll_box {
+  flex-direction: column;
+}
+.lates_box {
+  height: 400px;
+  padding: 200px var(--padding-2xl) var(--padding-lgi);
+}
+ .mini_bn1 , .mini_bn2 , .mini_bn3{
+  height: 120px;
+ }
+}
+/* Extra small devices (phones, 300px and down) */
+@media only screen and (max-width: 400px) {
+}
